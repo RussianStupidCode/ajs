@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussianStupidCode/ajs.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RussianStupidCode/ajs/issues"
+  },
+  "homepage": "https://github.com/RussianStupidCode/ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
